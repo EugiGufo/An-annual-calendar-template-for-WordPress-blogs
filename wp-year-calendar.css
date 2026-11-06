@@ -1,0 +1,78 @@
+/*=== START SECTION - WP Year Calendar ===*/
+/* Year navigation */
+.calendar-nav {
+    text-align: center;
+    margin: 40px 0;
+    font-size: 22px;
+}
+.calendar-nav a {
+    margin: 0 10px;
+    text-decoration: none;
+}
+.current-year {
+    font-weight: bold;
+    margin: 0 15px;
+}
+
+/* Month layout */
+.calendar-year { display: block; }
+.calendar-month-block { margin-bottom: 40px; }
+
+/* Month title */
+.month-title {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* Calendar table */
+.calendar-month {
+    width: 100%;
+    border-collapse: collapse;
+}
+.calendar-month th {
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+.calendar-month td {
+    padding: 0;
+    height: 32px;
+    text-align: center;
+}
+
+/* Days */
+.day-number {
+    display: block;
+    padding: 6px;
+    background: #FFFFFF;
+}
+.day-link {
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    background: transparent;
+}
+.calendar-month td.has-posts { background: #C5C5C5; }
+.calendar-month td.no-posts { background: #FFFFFF; }
+.today-past { outline: 2px dashed #FF9800; }
+
+/* Hover */
+.day-link:hover { background: #C5C5C5; }
+
+/* Empty cells */
+.empty { background: #FFFFFF; }
+
+/* Desktop layout */
+@media (min-width: 1024px) {
+    .calendar-year {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 30px;
+        align-items: start;
+    }
+    .calendar-month-block { margin-bottom: 0; }
+}
+/*=== END SECTION - WP Year Calendar ===*/
