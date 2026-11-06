@@ -1,6 +1,6 @@
 # WP Year Calendar
 
-A lightweight WordPress page template that displays an annual calendar of blog posts.
+A WordPress page template that displays an annual calendar of blog posts.
 
 The calendar shows all twelve months of a selected year. Dates with published posts link to the corresponding daily archive, and month names link to monthly archives when that month contains at least one published post.
 
